@@ -1,0 +1,228 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Netflix Sans';
+}
+body{
+    background-color: rgb(48, 48, 48);
+    display:flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.page1container{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page1{
+    min-height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13),rgba(0, 0, 0, 0.751)) , linear-gradient(to right ,rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.751));
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+.top-right{
+    display: flex;
+    justify-content: flex-end;
+    gap:24px;
+    margin-right:8.3%;
+}
+.page1 .language{
+    background-color: rgba(0, 0, 0, 0);
+    padding:4.7px 24.25px;
+    border-radius: 3.5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#signin1{
+    padding:8px 17px;
+    margin-right: 9.8%;;
+    border: none #E50914;
+    border-radius:3.5px;
+    background-color: #E50914;
+    font-weight: 550;
+    font-size: 13px;
+}
+.logo{
+    margin-left: 9.8%;
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill:#E50914;
+    display: block;
+}
+option{
+    color:black;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page1 h1{
+    font-size: 3rem;
+    font-weight:900;
+    margin-top: 27.75vh;
+}
+.page1 h2{
+    padding:14px;
+    font-weight: 400;
+}
+
+.email{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.9px;
+    
+}
+.emailcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2:nth-child(3){
+    font-size: 20px;
+    padding:13px;
+}
+.email1container{
+    padding:0px;
+}
+.emailbox{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:15px 70px;
+    border-radius: 4.25px;
+    border:2px solid rgb(79, 79, 79);
+    font-size: 20px;
+}
+.submitbtn{
+    background-color: #E50914;
+    padding:14px 28px;
+    border-radius: 4.25px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.imgpg2{
+    width:575px;
+}
+.page2 ,.page3 ,.page4 ,.page5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 83.5vh;
+    padding: 11rem 11rem;
+    background-color: black;
+    min-width: auto;
+}
+.pg2head{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 190px;
+    padding-top: 12px;
+}
+
+.page2 h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+.page2 h2{
+    font-weight:400;
+    margin-top: 1rem;;
+}
+.page3container,.page4container,.page5container{
+    height:354.075px;
+    width:768px;
+}  
+.q{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    flex-direction: column;
+    flex-flow: column;
+    height: auto;
+    padding:0px 55px;
+    width:84vw;
+}
+.q1{
+    min-height:50px;
+    width: auto;
+    background-color: rgb(49, 49, 49);
+    margin-top: 8px;
+    padding:27px 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.q2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    height:auto;
+    width: auto;
+    padding:24px;
+    background-color: rgb(30, 29, 29);
+    display: none;
+    margin-top: 1px;
+    animation-duration: 100ms;
+}
+.questions{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: column;
+    
+}
+.page2ndlast{
+    background-color: black;
+    
+}
+#qh{
+    padding: 1rem 0rem;
+    margin-top: 1rem;
+    font-size: 3.2rem;
+    font-weight:900;
+}
+#email2container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem;
+}
+#email2container h2{
+    padding:14px;
+    font-weight: 400;
+    font-size:1.3rem;
+}
+.email2{
+    display: flex;
+    align-content: center;
+    gap:6.9px;
+}
+.lastpage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding:7rem;
+    grid-gap: 1.5rem;
+}
+.lastpage .language{
+    background-color: rgba(0, 0, 0, 0);
+    padding:4.7px 24.25px;
+    margin-left: auto;
+    margin-right: 24px;
+    border-radius: 3.5px;
+    font-weight: 500;
+    font-size: 16px;
+}
